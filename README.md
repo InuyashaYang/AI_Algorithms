@@ -41,3 +41,91 @@ This repository provides clear, well-documented implementations of fundamental m
 - NumPy
 - Matplotlib (for visualizations | 用于可视化)
 - Pandas (for data handling | 用于数据处理)
+
+
+## 项目架构
+
+Machine_Learning_Algorithms_From_Scratch/
+│
+├── documents/
+│   ├── README.md
+│   ├── installation.md
+│   ├── usage.md
+│   └── algorithms_overview.md
+│
+├── test/
+│   ├── Linear_Regression/
+│   │   ├── __init__.py
+│   │   └── test_linear_regression.py
+│   │
+│   ├── Logistic_Regression/
+│   │   ├── __init__.py
+│   │   └── test_logistic_regression.py
+│   │
+│   ├── K_Nearest_Neighbors/
+│   │   ├── __init__.py
+│   │   └── test_k_nearest_neighbors.py
+│   │
+│   ├── Decision_Tree/
+│   │   ├── __init__.py
+│   │   └── test_decision_tree.py
+│   │
+│   ├── Naive_Bayes/
+│   │   ├── __init__.py
+│   │   └── test_naive_bayes.py
+│   │
+│   └── Transformer/
+│       ├── __init__.py
+│       ├── test_decoder.py
+│       ├── test_decoder_layer.py
+│       ├── test_embeddings.py
+│       ├── test_encoder.py
+│       ├── test_encoder_layer.py
+│       ├── test_feed_forward.py
+│       ├── test_layer_norm.py
+│       ├── test_multi_head_attention.py
+│       ├── test_positional_encoding.py
+│       └── test_transformer.py
+│
+├── algorithms/
+│   ├── Linear_Regression/
+│   │   ├── __init__.py
+│   │   ├── linear_regression.py
+│   │   └── utils.py
+│   │
+│   ├── Logistic_Regression/
+│   │   ├── __init__.py
+│   │   ├── logistic_regression.py
+│   │   └── utils.py
+│   │
+│   ├── K_Nearest_Neighbors/
+│   │   ├── __init__.py
+│   │   ├── k_nearest_neighbors.py
+│   │   └── utils.py
+│   │
+│   ├── Decision_Tree/
+│   │   ├── __init__.py
+│   │   ├── decision_tree.py
+│   │   └── utils.py
+│   │
+│   ├── Naive_Bayes/
+│   │   ├── __init__.py
+│   │   ├── naive_bayes.py
+│   │   └── utils.py
+│   │
+│   └── Transformer/
+│       ├── __init__.py
+│       ├── decoder.py
+│       ├── decoder_layer.py
+│       ├── embeddings.py
+│       ├── encoder.py
+│       ├── encoder_layer.py
+│       ├── feed_forward.py
+│       ├── layer_norm.py
+│       ├── multi_head_attention.py
+│       ├── positional_encoding.py
+│       ├── transformer.py
+│       └── utils.py
+│
+├── README.md
+└── requirements.txt
