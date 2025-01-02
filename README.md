@@ -44,7 +44,7 @@ This repository provides clear, well-documented implementations of fundamental m
 
 
 ## 项目架构
-
+```
 Machine_Learning_Algorithms_From_Scratch/
 │
 ├── documents/
@@ -129,3 +129,4 @@ Machine_Learning_Algorithms_From_Scratch/
 │
 ├── README.md
 └── requirements.txt
+```
